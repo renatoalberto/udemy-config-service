@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: rest_com_spring_secao_6
+
+# configuração do actuator (Aula 70)		
+management:   
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+  endpoint:
+    health:
+      show-details: always
+
+# Utilizado no GreetingConfiguration (Aula 69)
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo"
+

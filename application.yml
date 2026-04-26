@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: rest_com_spring_secao_6_config_server
+  profiles:
+    active:
+    - native
+
