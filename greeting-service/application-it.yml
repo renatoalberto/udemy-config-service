@@ -17,6 +17,6 @@ management:
 
 # Utilizado no GreetingConfiguration (Aula 69)
 greeting-service:
-  greeting: "Ciao"
+  greeting: "Pronto"
   default-value: "Mondo"
 
